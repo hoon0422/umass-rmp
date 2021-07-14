@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@dto": ["./src/dto"],
+      "@dto/*": ["./src/dto/*"],
+      "@pages": ["./src/pages"],
+      "@pages/*": ["./src/pages/*"],
+      "@navigation": ["./src/navigation"],
+      "@navigation/*": ["./src/navigation/*"],
+      "@components": ["./src/components"],
+      "@components/*": ["./src/components/*"],
+      "@config": ["./src/pages"],
+      "@config/*": ["./src/pages/*"],
+      "@utils": ["./src/utils"],
+      "@utils/*": ["./src/utils/*"],
+      "@store": ["./src/store"],
+      "@store/*": ["./src/store/*"],
+      "@services": ["./src/services"],
+      "@services/*": ["./src/services/*"],
+      "@src": ["./src"],
+      "@src/*": ["./src/*"]
+    }
+  }
+}

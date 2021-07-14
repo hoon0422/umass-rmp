@@ -1,0 +1,30 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "apps/umass-rmp/src",
+  "monorepo": true,
+  "root": "apps/umass-rmp",
+  "compilerOptions": {
+    "webpack": true,
+    "tsConfigPath": "apps/umass-rmp/tsconfig.app.json"
+  },
+  "projects": {
+    "umass-rmp": {
+      "type": "application",
+      "root": "apps/umass-rmp",
+      "entryFile": "main",
+      "sourceRoot": "apps/umass-rmp/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/umass-rmp/tsconfig.app.json"
+      }
+    },
+    "models": {
+      "type": "library",
+      "root": "libs/models",
+      "entryFile": "index",
+      "sourceRoot": "libs/models/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/models/tsconfig.lib.json"
+      }
+    }
+  }
+}
